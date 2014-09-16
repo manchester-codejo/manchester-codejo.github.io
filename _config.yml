@@ -1,10 +1,7 @@
 # Site settings
 title: Manchester Codejo
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+email: 
+description: Katas are taken from the Japanese martial art practice of detailed choreographed patterns of movements practised either solo or in pairs. These katas are exercised at Dojos (training places) with the idea that the skills learned in the katas become second nature during a fight situation. In a similar way we plan to use these katas to enhance our programming skills in the real world.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://manchester-codejo.com" # the base hostname & protocol for your site
 twitter_username: manc_codejo
