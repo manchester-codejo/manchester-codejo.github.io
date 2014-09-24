@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: kata
 title: Tennis Game Kata
 permalink: /kata/TennisGame/
 ---

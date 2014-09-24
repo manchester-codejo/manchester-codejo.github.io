@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: kata
 title: Checkout Kata
 permalink: /kata/Checkout/
 ---

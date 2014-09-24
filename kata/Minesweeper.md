@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: kata
 title: Minesweeper Kata
 permalink: /kata/Minesweeper/
 ---
