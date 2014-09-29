@@ -278,13 +278,13 @@
     list-style: none;
     margin-left: 0px;
     .event {
-        .title, .title-date : {
+        .title, .title-date {
             display: inline-block;
         }
-        .title : {
+        .title {
             float: left;
         }
-        .title-date : {
+        .title-date {
             float: right;
         }
     }
