@@ -14,10 +14,9 @@ layout: default
         <li>
           <article class="event">
             <div class="header">
-              <h3 class="title">{{ post.title }}</h3>
-              <h3 class="title-date">{{post.date | date_to_string}}</h3>
+              <h3 class="title">{{post.date | date_to_string}} - {{ post.title }}</h3>
             </div>
-            <div>{{post.content}}</div>
+            <div class="event-content">{{post.content}}</div>
           </article>
         </li>
       {% endfor %}
