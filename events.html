@@ -1,0 +1,20 @@
+---
+layout: default
+title: All events
+permalink: /events/
+---
+
+ <section>
+  <ul class="events">
+  {% for post in site.posts %}
+    <li>
+      <article class="event">
+        <div class="header">
+          <h3 class="title">{{post.date | date_to_string}} - {{ post.title }}</h3>
+        </div>
+        <div class="event-content">{{post.content}}</div>
+      </article>
+    </li>
+  {% endfor %}
+  </ul>
+</section>

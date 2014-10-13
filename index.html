@@ -10,7 +10,7 @@ layout: default
   <section>
     <div class='page-col-1'>
       <ul class="events">
-      {% for post in site.posts %}
+      {% for post in site.posts limit:3 %}
         <li>
           <article class="event">
             <div class="header">
@@ -21,6 +21,9 @@ layout: default
         </li>
       {% endfor %}
       </ul>
+      <div class="allEventsLink">
+        <a href="/events">See all previous events</a>
+      </div>
     </div>
 
     <div class='page-col-2'>
