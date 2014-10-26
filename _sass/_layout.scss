@@ -8,9 +8,23 @@
 
     // Positioning context for the mobile navigation icon
     position: relative;
-    padding: 10px 0 5px 0;
-    margin-top: 20px;
-    background-image: url(/images/header-background.png)
+    background-image: url(/images/hero2.png);
+    background-repeat: no-repeat;
+    background-size: 1500px;
+}
+
+.hero {
+    font-family: 'Nova Round', cursive;
+    text-align: center;
+    color: #FFF;
+    padding: 20px;
+    h1 {
+        font-size: 3em;
+        font-weight: bold;
+        margin-bottom: 0px;
+        line-height: 1.2;
+    }
+
 }
 
 .site-title {
@@ -22,7 +36,8 @@
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: #FFF;
+        
     }
 }
 
@@ -265,13 +280,12 @@
 }
 
 .sub-title {
-    padding-bottom: 10px;
+    padding: 10px 0px;
     h2 {
-        font-size: 1.4em;
+        font-size: 1.3em;
         text-align: center;
     }
     border-bottom: 1px solid #e8e8e8;
-    margin-bottom: 10px;
 }
 
 .events {
@@ -295,4 +309,5 @@
 .allEventsLink {
     text-align: center;
     font-size: 1.2em;
+    padding-bottom: 30px;
 }
